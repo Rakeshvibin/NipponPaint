@@ -1,0 +1,53 @@
+.navbar{
+      
+         background-color: #00308c;
+         
+    
+}
+/* header{
+     position: sticky;
+       top:0;  
+} */
+.flip-card{
+      background: transparent;
+      perspective: 1000px;
+    
+   
+    }
+
+
+    .flip-card-inner{
+     
+      text-align: center;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+
+
+    .flip-card:hover .flip-card-inner {
+    transform: rotateX('anglex') rotateY('angley');
+    }
+
+
+    .flip-card-front, .flip-card-back {
+      position: absolute;
+    
+      backface-visibility: hidden;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+
+    
+
+    .flip-card-back {
+      background-color: violet;
+      color: white;
+      transform: rotateX(180deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      
+    }
+

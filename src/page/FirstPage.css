@@ -1,0 +1,148 @@
+
+
+
+.carousel-img {
+  object-fit: cover;
+}
+
+
+.media-icons a {
+  text-decoration: none;
+  margin: 0.5rem 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.media-icons a:hover {
+  transform: scale(1.2);
+}
+
+
+.fb {
+  color: #74C0FC;
+}
+.x {
+  color: #180910;
+}
+.yt {
+  color: #ce226c;
+}
+.ig {
+  color: #ce226c;
+}
+
+.products-section {
+ 
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.product-img {
+  width: 100%;
+  max-width: 1024px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+.trends-section {
+  background-color: #f8f9fa; 
+  text-align: center;
+}
+
+.trends-title {
+  text-transform: capitalize;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+
+.trends-section img {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.trends-section img:hover {
+  transform: scale(1.05);
+}
+
+
+.trends-btns {
+  margin-top: 30px;
+}
+
+.trends-btn {
+  border-radius: 30px;
+  padding: 10px 25px;
+  transition: all 0.3s ease;
+}
+
+.trends-btn:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .trends-section img {
+    width: 100%;
+    height: auto;
+  }
+}
+.faq-section {
+  background-image: url("../images/6079758.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+
+.accordion-button {
+  background-color: #f8f9fa;
+  font-weight: 500;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e9ecef;
+  color: #0d6efd;
+}
+
+.accordion-body {
+  background-color: #fff;
+  border-left: 3px solid #0d6efd;
+  padding: 15px;
+}
+
+.btn-light {
+  border-radius: 25px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-light:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+.header {
+  background-color: red;
+  color: white;
+}
+
+.header h6 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.header .container {
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .header .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header h6 {
+    margin-bottom: 5px;
+  }
+}

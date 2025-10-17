@@ -1,0 +1,35 @@
+.my-background {
+ 
+  background-image: url(C:\Users\mrake\Desktop\React\frontend\src\images\p14.jpg);
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+
+.media a i {
+  color: white;
+  transition: 0.3s ease;
+}
+
+.media a i:hover {
+  transform: scale(1.2);
+}
+
+.card-pink {
+  background-color: #f6edf0;
+  height: 80vh;
+}
+
+.card-dark {
+  background-color: #3f3f3f;
+  height: 80vh;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.paint-img {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
